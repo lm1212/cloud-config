@@ -1,0 +1,15 @@
+spring: 
+  profiles: 
+    active:
+    -dev 
+---
+spring: 
+  profiles: dev
+  application: 
+    name: cloud-config-dev
+---
+sping: 
+  profiles: 
+    application: 
+      name: cloud-config-test
+      #cloud 配置中心
