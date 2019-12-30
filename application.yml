@@ -10,6 +10,6 @@ spring:
 ---
 spring: 
   profiles: test
-    application: 
-      name: cloud-config-test
+  application: 
+    name: cloud-config-test
       #cloud 配置中心
