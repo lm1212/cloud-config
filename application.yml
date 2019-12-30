@@ -8,8 +8,8 @@ spring:
   application: 
     name: cloud-config-dev
 ---
-sping: 
-  profiles: 
+spring: 
+  profiles: test
     application: 
       name: cloud-config-test
       #cloud 配置中心
